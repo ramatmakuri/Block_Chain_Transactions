@@ -8,7 +8,7 @@
 import os
 import requests
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv("/Users/unicorn/Desktop/FinTech_Workspace/Block_Chain_Transactions/Starter_Code/SAMPLE.env")
 from bip44 import Wallet
 from web3 import Account
 from web3 import middleware
