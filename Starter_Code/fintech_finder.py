@@ -180,10 +180,6 @@ candidate_address = candidate_database[person][1]
 # Write the inTech Finder candidate's Ethereum Address to the sidebar
 st.sidebar.write(candidate_address)
 
-# Write the Fintech Finder candidate's name to the sidebar
-
-st.sidebar.markdown("## Total Wage in Ether")
-
 ################################################################################
 # Step 2: Sign and Execute a Payment Transaction
 
@@ -246,7 +242,8 @@ wage = hours*candidate_database[person][3]
 # @TODO
 # Write the `wage` calculation to the Streamlit sidebar
 # YOUR CODE HERE
-st.write(wage)
+st.sidebar.markdown("## Total Wage in Ether")
+st.sidebar.write(wage)
 ##########################################
 # Step 2 - Part 2:
 # * Call the `send_transaction` function and pass it three parameters:

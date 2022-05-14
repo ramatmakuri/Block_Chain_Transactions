@@ -8,7 +8,7 @@
 import os
 import requests
 from dotenv import load_dotenv
-load_dotenv("/Users/unicorn/Desktop/FinTech_Workspace/Block_Chain_Transactions/Starter_Code/SAMPLE.env")
+load_dotenv("../env_folder/SAMPLE.env")
 from bip44 import Wallet
 from web3 import Account
 from web3 import middleware
@@ -70,4 +70,4 @@ def send_transaction(w3, account, to, wage):
     signed_tx = account.signTransaction(raw_tx)
 
     # Send the signed transactions
-    return w3.eth.sendRawTransaction(signed_tx.rawTransaction)
+    return w3.eth.sendRawTransaction(signed_tx.rawTransaction).hex()
