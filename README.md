@@ -42,22 +42,34 @@ In this application,  we will assume the perspective of a Fintech Professional F
 
   a. Transaction execution in Streamlit
   
-  <img width="300" alt="Screen Shot 2022-05-14 at 2 53 54 PM" src="https://user-images.githubusercontent.com/96159292/168449298-2706e98b-4426-4dd6-aa59-705fa5d27bad.png">
+<img width="302" alt="TransactionExecution" src="https://user-images.githubusercontent.com/96159292/168451694-bf7d49b4-14d0-4fb9-83e2-0c9be960197a.png">
 
-  b. Balance in the Account
-  
-  <img width="1201" alt="Screen Shot 2022-05-14 at 2 55 01 PM" src="https://user-images.githubusercontent.com/96159292/168449306-6a69a2c9-71db-4902-96fc-25a29b756518.png">
-  
-  Balance before the Transaction: ETH 98.02
-  
-  Wages:                         ETH ( 0.99)  
-  
-  Balance after the Transaction: ETH 97.03
-  
-  c. Transaction 
-  
-  <img width="1201" alt="Screen Shot 2022-05-14 at 2 55 01 PM" src="https://user-images.githubusercontent.com/96159292/168449319-bb19cc0b-f2c8-4a69-b69b-890006dd86f3.png">
 
+  b. Sender Balance 
+  
+ <img width="1440" alt="SenderBalancAfterTransaction" src="https://user-images.githubusercontent.com/96159292/168451700-5e45ecbb-fcdb-4cd5-9db0-1afb5843cbe2.png">
+
+  
+  Balance before the Transaction: ETH 96.37
+  
+  Wages:                         ETH ( 1.00)  
+  
+  Balance after the Transaction: ETH 95.37
+  
+  c. Transaction Screenshot
+  
+  <img width="1440" alt="Transaction Screen Shot " src="https://user-images.githubusercontent.com/96159292/168451706-a81d767a-5ba9-46e9-b8ea-45dc042d1ab7.png">
+
+  
+  d. Receiver Balance
+  
+  <img width="1440" alt="Screen Shot FinTech Professional Balance" src="https://user-images.githubusercontent.com/96159292/168451723-2884fd4c-d870-42bb-b353-430c6c0aadff.png">
+
+  Balance before the Transaction: ETH 100.00
+  
+  Wages:                         ETH  1.00  
+  
+  Balance after the Transaction: ETH 101.00
  
 Data source: Input in Streamlit application
 
