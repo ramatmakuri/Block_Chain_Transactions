@@ -55,6 +55,8 @@ In this application,  we will assume the perspective of a Fintech Professional F
  
 Data source: Input in Streamlit application
 
+File Structure: Primary functions are in crypto_wallet.py file, the file to be run in streamlist (which calls the funcions referrred to before, as needed) is in fintech_finder.py file. 
+
 Packages Used This project leverages python 3.7
 
 Installation Guide: The application requires the below programs to be installed
