@@ -40,13 +40,19 @@ In this application,  we will assume the perspective of a Fintech Professional F
 
 6. Once the transaction’s hash code is received, you will navigate to the Transactions section of Ganache to review the blockchain transaction details. 
 
-<img width="304" alt="Screen Shot 2022-05-14 at 2 43 51 PM" src="https://user-images.githubusercontent.com/96159292/168449060-97b89d98-25da-47ca-8288-171e0a6d701d.png">
+  a. Transaction execution in Streamlit
+  <img width="300" alt="Screen Shot 2022-05-14 at 2 53 54 PM" src="https://user-images.githubusercontent.com/96159292/168449298-2706e98b-4426-4dd6-aa59-705fa5d27bad.png">
 
-<img width="1197" alt="Screen Shot 2022-05-14 at 2 44 35 PM" src="https://user-images.githubusercontent.com/96159292/168449067-417f61ac-321d-4a4a-aabb-294c8f569f9d.png">
+  b. Balance in the Account
+  <img width="1201" alt="Screen Shot 2022-05-14 at 2 55 01 PM" src="https://user-images.githubusercontent.com/96159292/168449306-6a69a2c9-71db-4902-96fc-25a29b756518.png">
+  Balance before the Transaction: ETH 98.02
+  Wages:                         ETH ( 0.99)  
+  Balance after the Transaction: ETH 97.03
+  
+  c. Transaction 
+  <img width="1201" alt="Screen Shot 2022-05-14 at 2 55 01 PM" src="https://user-images.githubusercontent.com/96159292/168449319-bb19cc0b-f2c8-4a69-b69b-890006dd86f3.png">
 
-<img width="1201" alt="Screen Shot 2022-05-14 at 2 45 21 PM" src="https://user-images.githubusercontent.com/96159292/168449071-4d345649-ef5b-4042-ba2d-1073c5fb80ab.png">
-
-
+ 
 Data source: Input in Streamlit application
 
 Packages Used This project leverages python 3.7
